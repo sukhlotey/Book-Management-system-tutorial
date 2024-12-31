@@ -166,8 +166,12 @@ cd books_management/www
 cp -r ~/frappe-bench/apps/book_management/book_management/www/dist/* ~/frappe-bench/apps/book_management/public/
 ```
 The step to copy the dist folder to the public directory of your Frappe app is necessary because Frappe serves static files, such as HTML, CSS, and JavaScript, from the public directory of your app. 
-*Step:6 The default vue main file App.vue [App](App.vue)
-* Step:7 Create directory with name Components
+* Step:6 The default vue main file App.vue [App](App.vue)
+* Step:7 Dependencies
+```bash
+npm install axios vue-router watch
+```
+* Step:8 Create directory with name Components
 ```bash
 cd src
 mkdir components
@@ -187,3 +191,30 @@ b. BookList.vue for List the all books that added
 
 c. BookDetails.vue is show up the book's description when specific book is clicked it navigate to the selected book and display the description.
 [BookDetails](BookDetails.vue)
+
+Now Run the Application
+
+```bash
+npm run dev
+```
+### The first rendering view page:
+
+![Screenshot from 2025-01-01 01-55-13](https://github.com/user-attachments/assets/cab36c0d-0a6f-44e4-a2a0-8089c786609a)
+
+### Searching Book
+
+![Screenshot from 2025-01-01 02-06-18](https://github.com/user-attachments/assets/b28a490c-105e-47c9-a291-6e76c0749c48)
+
+### Latest Books
+![Screenshot from 2025-01-01 01-56-02](https://github.com/user-attachments/assets/ed668844-9aae-4658-b6ad-fcd228d04f4e)
+
+### Add Book Form
+![Screenshot from 2025-01-01 01-56-12](https://github.com/user-attachments/assets/0889bc97-f08a-46da-ab30-47a55df61b66)
+
+### Book Detail
+![Screenshot from 2025-01-01 01-56-44](https://github.com/user-attachments/assets/9858b683-deb0-416f-9f11-55d05fc1e55e)
+
+
+
+
+
