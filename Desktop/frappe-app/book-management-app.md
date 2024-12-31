@@ -166,7 +166,8 @@ cd books_management/www
 cp -r ~/frappe-bench/apps/book_management/book_management/www/dist/* ~/frappe-bench/apps/book_management/public/
 ```
 The step to copy the dist folder to the public directory of your Frappe app is necessary because Frappe serves static files, such as HTML, CSS, and JavaScript, from the public directory of your app. 
-* Step:6 Create directory with name Components
+*Step:6 The default vue main file App.vue [App](App.vue)
+* Step:7 Create directory with name Components
 ```bash
 cd src
 mkdir components
@@ -176,5 +177,13 @@ We are going to create Three components:
 1. AddBook.vue
 2. BookList.vue
 3. BookDetail.vue
+<br>
+
 a. AddBook.vue for button which is popup the form of books credentials
-[AddBook.vue](AddBook.vue)
+[AddBook](AddBook.vue)
+
+b. BookList.vue for List the all books that added
+[BookList](BookList.vue)
+
+c. BookDetails.vue is show up the book's description when specific book is clicked it navigate to the selected book and display the description.
+[BookDetails](BookDetails.vue)
