@@ -138,7 +138,43 @@ So, Four Doctypes are created.
 #### Let's create a role with name od Librarian (who have the access to add books)
 * Step: 1 search for role
 * Step: 2 create new role
-* Step: 3 set Role Permissions MAnager
+* Step: 3 set Role Permissions Manager
 * Step: 4 Give access to Librarian (create, read, delete, write, print, report, export, share)
 * Step: 5 Give Librarian role access to Doctypes (Book,Library Membership, Library Transaction)
+![Screenshot from 2025-01-01 00-36-15](https://github.com/user-attachments/assets/f18eea5a-6afb-42e7-a82b-8c7017dbb95e)
 
+# Let's setup the frontend side
+### We are using the VueJS
+Vue.js is an open-source JavaScript framework for building user interfaces (UIs) and single-page applications.
+- In Frappe application, there are lot of directories and files.
+One directory <strong>www</strong> is main directory for frontend files.
+<br>
+
+Here are Steps to setup the VueJS:
+<br>
+* Step:1 Navigate to the www directory.
+```bash
+cd books_management/www
+```
+<code>books_management/books_management/www</code>
+* Step:2 Initialize vuejs
+<code>npm create vite@latest .</code>
+* Step:3 npm start
+* Step:4 npm run build
+* Step:5 Copy the dist content to public folder.
+```bash
+cp -r ~/frappe-bench/apps/book_management/book_management/www/dist/* ~/frappe-bench/apps/book_management/public/
+```
+The step to copy the dist folder to the public directory of your Frappe app is necessary because Frappe serves static files, such as HTML, CSS, and JavaScript, from the public directory of your app. 
+* Step:6 Create directory with name Components
+```bash
+cd src
+mkdir components
+```
+We are going to create Three components:
+<br>
+1. AddBook.vue
+2. BookList.vue
+3. BookDetail.vue
+a. AddBook.vue for button which is popup the form of books credentials
+[AddBook.vue]()
