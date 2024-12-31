@@ -101,7 +101,7 @@ if (this.book.image) {
           formData,
           {
             headers: {
-              Authorization: 'token 4bfbc3347bb0a61:8181f15b6ee43f2', // Use Bearer token format
+              Authorization: 'token  api key:api secret key', 
               //  'Content-Type': 'application/json', // Correct content type for file upload
             },
           }
@@ -109,7 +109,6 @@ if (this.book.image) {
 
         console.log('Book added successfully', response.data);
 
-        // Notify parent component (if needed) and reset the form
         this.$emit('book-added');
         this.resetForm();
       } catch (error) {
