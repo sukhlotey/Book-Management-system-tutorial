@@ -156,7 +156,7 @@ export default {
         const response = await axios.get(
           "http://books.localhost:8002/api/method/books_management.api.user_role",{
       headers: {
-        Authorization: `token 28b908dbf65367b:f4ef14fb1da5c14`,
+        Authorization: `token api key:api secret key`,
       },
     }
         );
