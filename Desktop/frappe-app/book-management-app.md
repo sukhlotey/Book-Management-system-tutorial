@@ -10,7 +10,7 @@ Run this command under frappe-bench directory
 <br>
 <code>$ bench new-app book_management</code>
 <br>
-![alt text](<Screenshot from 2024-11-29 23-09-38.png>)
+<img src='https://github.com/sukhlotey/Book-Management-system-tutorial/blob/main/Desktop/frappe-app/Screenshot%20from%202024-11-29%2023-09-38.png?raw=true' />
 <br>
 Congrats we have created our app within a second!
 
