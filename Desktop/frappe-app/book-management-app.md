@@ -19,7 +19,7 @@ Run this command under frappe-bench directory
 <br>
 <code>$ bench new-site book.localhost</code>
 <br>
-![alt text](<Screenshot from 2024-11-29 23-18-57.png>)
+<img src='https://github.com/sukhlotey/Book-Management-system-tutorial/blob/main/Desktop/frappe-app/Screenshot%20from%202024-11-29%2023-18-57.png?raw=true' />
 <br>
 Congrats we have created our site 
 so now we can open on browser and can do further process
@@ -33,13 +33,13 @@ But there is another way just run this:
 <br>
 <code>$ bench --site books.localhost add-to-hosts</code>
 <br>
-![alt text](<Screenshot from 2024-11-29 23-27-34.png>)
+<img src='https://github.com/sukhlotey/Book-Management-system-tutorial/blob/main/Desktop/frappe-app/Screenshot%20from%202024-11-29%2023-27-34.png?raw=true'/>
 <br>
 So, Open any browser (Recommanded Chrome)
 and Type http://books.localhost:8002/#login
 This will show credentials for login
 <br>
-![alt text](<Screenshot from 2024-11-29 23-36-30.png>)
+<img src='https://github.com/sukhlotey/Book-Management-system-tutorial/blob/main/Desktop/frappe-app/Screenshot%20from%202024-11-29%2023-36-30.png?raw=true'/>
 <br>
 Now Install app on site
 Run this command under frappe-bench directory
